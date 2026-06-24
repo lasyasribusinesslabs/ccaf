@@ -91,6 +91,40 @@ ORDERS = {
         "ordered_at": "2025-02-28T12:00:00Z",
         "delivered_at": "2025-03-04T09:20:00Z",
     },
+    # === Required Water Heater Orders for James Chen (CUST-1002) ===
+    "ORD-5506": {
+        "order_id": "ORD-5506",
+        "customer_id": "CUST-1002",
+        "items": [
+            {"name": "EcoTherm Gas Water Heater", "sku": "WH-GAS-40", "qty": 1, "price": 450.00},
+        ],
+        "total": 450.00,
+        "status": "delivered",
+        "ordered_at": "2024-05-12T10:15:00Z",
+        "delivered_at": "2024-05-16T14:30:00Z",
+    },
+    "ORD-5507": {
+        "order_id": "ORD-5507",
+        "customer_id": "CUST-1002",
+        "items": [
+            {"name": "HydroMax Electric Water Heater", "sku": "WH-ELEC-50", "qty": 1, "price": 499.99},
+        ],
+        "total": 499.99,
+        "status": "delivered",
+        "ordered_at": "2025-11-04T09:00:00Z",
+        "delivered_at": "2025-11-08T11:20:00Z",
+    },
+    "ORD-5508": {
+        "order_id": "ORD-5508",
+        "customer_id": "CUST-1002",
+        "items": [
+            {"name": "Titan Tankless Smart Water Heater", "sku": "WH-TANK-01", "qty": 1, "price": 1250.00},
+        ],
+        "total": 1250.00,
+        "status": "delivered",
+        "ordered_at": "2026-03-10T14:00:00Z",
+        "delivered_at": "2026-03-14T17:45:00Z",
+    },
 }
 
 REFUNDS_LOG = []
